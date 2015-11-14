@@ -1,0 +1,35 @@
+// Сторонние библиотеки
+@import
+  'vendors/bootstrap';
+
+// Инструменты и помощники Sass, не генерирующие css код
+@import
+  'utils/variables',
+  'utils/functions',
+  'utils/mixins',
+  'utils/placeholders';
+
+// Базовые стили проекта
+@import
+  'base/reset',
+  'base/base',
+  'base/typography';
+
+// Стили для основных частей сайта
+@import
+  'layout/grid',
+  'layout/header',
+  'layout/footer';
+
+// Для маленьких компонентов (виджеты, модули)
+@import
+  'components/buttons',
+  'components/carousel';
+
+// Стили которые различиются в зависимости от страницы
+@import
+  'pages/home';
+
+// Файл "позора" для различных хаков и некрасивого кода, наподобии !important
+@import
+	'shame/shame';

@@ -1,0 +1,20 @@
+{
+  "name": "frontend-build",
+  "version": "1.0.0",
+  "description": "the start of the project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-rigger": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest"
+  }
+}
